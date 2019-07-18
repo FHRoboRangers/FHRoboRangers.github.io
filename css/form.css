@@ -1,0 +1,11 @@
+#formContainer{
+    width: 50%;
+    height: 100%;
+    color: white;
+    margin: auto;
+}
+#form{
+     width: 25%;
+     height: 100%;
+     margin: auto;
+}

@@ -2,8 +2,10 @@
 <html>
     <title>FHHS RoboRangers</title>
     <head>
+        <link rel="shortcut icon" href="../assets/RRLogo.png">
         <link rel="stylesheet" href="../css/topHeader.css">
         <link rel="stylesheet" href="../css/bios.css">
+        <link rel="stylesheet" href="../css/form.css">
     </head>
     <body>
         <div id = "topHeader">
@@ -15,7 +17,16 @@
                     <a class="active" href="contact.html">Contact</a>
                 </div>
             </div>
-
+        </div>
+        <div id = "formContainer">
+            <form id = "form">
+                Name:*
+                <br><input type="text" name="Name"><br><br>
+                E-mail:*
+                <br><input type="text" name="E-mail"><br><br>
+                Message:* <br><textarea name="message" rows="15" cols="50"></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
