@@ -1,11 +1,18 @@
 #formContainer{
-    width: 50%;
     height: 100%;
     color: white;
-    margin: auto;
 }
 #form{
-     width: 25%;
-     height: 100%;
-     margin: auto;
+     text-align: justified;
+     width: 406px;
+}
+
+#formButton{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: underline;
+    font-size: 17px;
 }
