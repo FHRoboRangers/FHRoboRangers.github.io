@@ -1,0 +1,20 @@
+#teamBios{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+#Biography{
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+}
+.title{
+    color: white;
+}
+.bio{
+    color: white;
+    text-align: justify;
+}
