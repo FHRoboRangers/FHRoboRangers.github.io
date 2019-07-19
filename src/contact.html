@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../css/form.css">
     </head>
     <body>
+        <script src = "../scripts/formSubmit.js"></script>
         <div id = "topHeader">
             <a href="../index.html" id = "logo2"><div></div></a>
             <div id = "enclosureMenu">
@@ -26,8 +27,9 @@
                 <label>E-mail:*</label>
                 <br><input type="text" name="E-mail" placeholder="E-mail" class = "formProperties"><br><br>
                 <label>Message:*</label><br> <textarea name="message" rows="10" cols="50 "placeholder="Your Message"></textarea><br>
-                <input type="submit" value="Submit" id = "formButton">
             </form>
+            <input type="submit" value="Submit" onclick="onClicked()" id = "formButton">
         </div>
+        <p id = "test"></p>
     </body>
 </html>
